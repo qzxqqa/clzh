@@ -1,0 +1,226 @@
+#pieChart {
+  padding: .4rem;
+}
+#pieChart h2 {
+  font-size: .48rem;
+  font-weight: 600;
+  line-height: 1;
+  padding-bottom: .4rem;
+}
+#pieChart h2 span {
+  font-size: .32rem;
+  color: #999;
+}
+.btn {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #eb333b;
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+  text-align: center;
+  font-size: 0.53333rem;
+  color: white;
+}
+.orderInput {
+  height: 3.70666667rem;
+  margin-top: 0.26666667rem;
+  padding: 0 0.4rem;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  background-color: white;
+}
+.orderInput .title {
+  height: 1.36rem;
+  line-height: 1.36rem;
+  font-size: 0.48rem;
+}
+.orderInput .main {
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+  color: #eb333b;
+  font-size: 0;
+  position: relative;
+}
+.orderInput .main span {
+  display: inline-block;
+  font-size: 0.96rem;
+}
+.orderInput .main .icon {
+  width: 13%;
+}
+.orderInput .main .num {
+  display: inline-block;
+  position: absolute;
+  left: 13%;
+  top: 0.2rem;
+  border: none;
+  outline: none;
+  height: 1rem;
+  line-height: 1rem;
+  color: #eb333b;
+  font-size: 0.96rem;
+  width: 50%;
+}
+.orderInput .main .zhongwen {
+  width: 87%;
+  line-height: 0.48rem;
+  text-align: right;
+  color: #999999;
+  font-size: 0.4rem;
+}
+.orderInput .main .zhongwen b {
+  font-weight: lighter;
+}
+.orderInput .start {
+  height: 0.96rem;
+  line-height: 0.93333333rem;
+  border-top: 2px solid #efefef;
+  font-size: 0.4rem;
+  color: #999999;
+}
+.proGroup {
+  width: 100%;
+  margin: 0.26666667rem 0 0.4rem;
+  padding: 0 0.4rem;
+  background-color: white;
+  box-sizing: border-box;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.proGroup .title {
+  height: 1.32rem;
+  line-height: 1.32rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+.proGroup .title h1 {
+  float: left;
+  font-size: 0.42666667rem;
+  color: #212121;
+  font-weight: normal;
+}
+.proGroup .title span {
+  float: right;
+  font-size: 0.37333333rem;
+  line-height: 1.32rem;
+  color: #999999;
+}
+.proGroup .table {
+  width: 100%;
+  font-size: 0.36rem;
+  color: #999999;
+  border-collapse: collapse;
+}
+.proGroup .table thead {
+  height: 1.09333333rem;
+  line-height: 1.09333333rem;
+}
+.proGroup .table thead th:first-child {
+  text-align: left;
+}
+.proGroup .table tbody {
+  color: #222222;
+}
+.proGroup .table tbody tr {
+  height: 0.8rem;
+}
+.proGroup .table tbody tr td {
+  width: 22%;
+  text-align: center;
+}
+.proGroup .table tbody tr td:first-child {
+  width: 34%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+}
+.proGroup .table tbody tr:last-child {
+  height: 1.22666667rem;
+  border-top: 2px solid #f0f0f0;
+  color: #999999;
+}
+.timeAxis {
+  width: 100%;
+  height: 5.36rem;
+  padding: 0 0.4rem;
+  font-size: 0.26rem;
+  letter-spacing: -0.016rem;
+  color: #999999;
+}
+.timeAxis .item {
+  display: flex;
+  flex-direction: row;
+  height: 0.93333333rem;
+  line-height: 0.93333333rem;
+}
+.timeAxis .item div:first-child {
+  width: 1.1rem;
+}
+.timeAxis .item div:last-child {
+  position: relative;
+  width: 8.1rem;
+}
+.timeAxis .item div:last-child:before {
+  display: inline-block;
+  content: '';
+  width: 0.24rem;
+  height: 0.24rem;
+  margin-right: 0.04rem;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+}
+.timeAxis .item div:last-child:after {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.107rem;
+  z-index: -1;
+  content: '';
+  width: 1px;
+  height: 0.93333333rem;
+  background-color: #c4c4c4;
+}
+.timeAxis .item:first-child {
+  color: #434343;
+}
+.timeAxis .item:first-child div:before {
+  background-color: #4a90e2;
+}
+.timeAxis .item:last-child div:after {
+  content: '';
+  width: 0;
+  height: 0;
+}
+.seekService {
+  width: 100%;
+  height: 1.7rem;
+  line-height: 1.7rem;
+  font-size: 0.35rem;
+  text-align: center;
+  color: #3193cc;
+}
+@charset 'utf-8';
+html,
+body,
+div,
+section,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+th {
+  font-weight: normal;
+}
