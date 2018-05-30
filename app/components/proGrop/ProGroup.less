@@ -1,0 +1,61 @@
+.proGroup{
+  width: 100%;
+  margin: 0.26666667rem 0 0.4rem;
+  padding: 0 0.4rem;
+  background-color: white;
+  box-sizing: border-box;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  .title{
+    height: 1.32rem;
+    line-height: 1.32rem;
+    border-bottom: 2px solid #f0f0f0;
+    h1{
+      float: left;
+      font-size: 0.42666667rem;
+      color: #212121;
+      font-weight: normal;
+    }
+    span{
+      float: right;
+      font-size: 0.37333333rem;
+      line-height: 1.32rem;
+      color: #999999;
+    }
+  }
+  .table{
+    width: 100%;
+    font-size: 0.36rem;
+    color: #999999;
+    border-collapse:collapse;
+    thead{
+      height: 1.09333333rem;
+      line-height: 1.09333333rem;
+      th:first-child {
+        text-align: left;
+      }
+    }
+    tbody{
+      color: #222222;
+      tr{
+        height: 0.8rem;
+        td{
+          width: 22%;
+          text-align: center;
+          &:first-child {
+            width: 34%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-align: left;
+          }
+        }
+        &:last-child{
+          height: 1.22666667rem;
+          border-top: 2px solid #f0f0f0;
+          color: #999999;
+        }
+      }
+    }
+  }
+}
